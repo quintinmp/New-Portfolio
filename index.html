@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="images/selfie2.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span> Quintin Pavilonis.</span> I'm learning to develop websites.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu.
+                </p>
+                <div class="btn-con"><a href="" class="main-btn">
+                    <span class="btn-txt">Download CV</span>
+                    <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="section sec2 about" id="about"></section>
+        <section class="section sec3 portfolio" id="portfolio"></section>
+        <section class="section sec4 blogs" id="blogs"></section>
+        <section class="section sec5 contact" id="contact"></section>   
+    </main>
+
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="control control-2 " data-id="about"> 
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="control control-3 " data-id="portfolio">
+            <i class="fa-solid fa-briefcase"></i>
+        </div>
+        <div class="control control-4 " data-id="blogs">
+            <i class="fa-solid fa-newspaper"></i>
+        </div>
+        <div class="control control-5 " data-id="contact">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </div>
+    <script src='script.js'/>
+</body>
+</html>
