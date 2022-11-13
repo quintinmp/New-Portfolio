@@ -513,10 +513,10 @@ span.python {
   color: var(--color-white);
   margin: 0 1rem;
 }
-.portfolios .portfolio-item .hover-items .icons .icon .icon:hover {
+.portfolios .portfolio-item .hover-items .icons .icon i:hover {
   background-color: var(--color-white);
 }
-.portfolios .portfolio-item .hover-items .icons .icon .icon:hover i {
+.portfolios .portfolio-item .hover-items .icons .icon i:hover i {
   color: var(--color-primary);
 }
 
