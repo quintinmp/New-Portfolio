@@ -467,13 +467,17 @@ span.python {
     justify-content: center;        
     align-items: center;
     flex-direction: column;
+    opacity: 0;
+    scale: 0;
+    transform:scale(0);
+    transition: all .4s ease-in-out;
+    
 }
 
 .portfolios .portfolio-item .hover-items h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     color: var(--color-white);
-
 }
 
 .portfolios .portfolio-item .hover-items .icons {
@@ -508,7 +512,10 @@ span.python {
 
 }
 
-
+.portfolio-item:hover .hover-items {
+    opacity: 1;
+    transform: scale(1);
+}
 
 
 /* independent components */
